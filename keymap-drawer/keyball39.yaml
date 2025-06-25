@@ -40,7 +40,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - $$mdi:apple-keyboard-shift$$
-  NUM:
+  NAV:
   - '1'
   - '2'
   - '3'

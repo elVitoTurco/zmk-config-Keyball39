@@ -168,7 +168,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-high$$
   - $$mdi:pan-up$$
-  - {t: '8', s: '*'}
+  - {t: '8', h: SCROLL, s: '*'}
   - $$mdi:pan-down$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
@@ -208,7 +208,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

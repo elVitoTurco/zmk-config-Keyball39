@@ -148,13 +148,17 @@
             >;
         };
 
-        function_layer {
-            label = "FUN";
+
+
+
+
+         congif_layer {
+            label = "CONGIF";
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &none                   &none   &none  &none  &none  &none
-&kp F5  &kp F6   &kp F7   &kp F8   &none                   &none   &none  &none  &none  &none
-&kp F9  &kp F10  &kp F11  &kp F12  &none                   &none   &none  &none  &none  &none
-&trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                       &trans
+                &kp F1  &kp F2   &kp F3   &kp F4   &none                   &none   &none  &none  &none  &none
+                &kp F5  &kp F6   &kp F7   &kp F8   &none                   &none   &none  &none  &none  &none
+                &kp F9  &kp F10  &kp F11  &kp F12  &none                   &none   &none  &none  &none  &none
+                &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                       &trans
             >;
         };
 
@@ -185,6 +189,19 @@
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        config_layer {
+            label = "CONFIG";
+            bindings = <
+                &bt BT_CLR          &bt BT_SEL 0        &bt BT_SEL 1          &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_SEL 4         &none                       &to WIN                 &to MAC             &none
+             // Clear all BT      // Profile 0:        // Profile 1:          // Profile 2:     // Profile 3:     // Profile 4:
+             // connections       // Work Laptop       // Personal PC         // Tablet         // Phone          // Other devices
+                &kp TAB             &none               &none                 &none              &none              &none                &none                       &none                   &none               &none
+                &kp LSHIFT          &none               &none                 &none              &none              &bootloader          &none                       &out OUT_USB            &out OUT_BLE        &none
+             //                                                                                  // Flash firmware
+                &none               &none               &none                 &none              &none              &none                &none                       &none                   &none               &none
             >;
         };
     };

@@ -6,6 +6,13 @@
 #define SCROLL  5
 #define SNIPE   6
 
+#define MAC 0
+#define MOUSE 1
+#define NAVIGATION 2
+#define NUMBERS 3
+#define CONFIG 4
+
+
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
